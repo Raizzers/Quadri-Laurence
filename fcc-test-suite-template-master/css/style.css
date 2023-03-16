@@ -1,0 +1,22 @@
+body {
+    background-color: hsl(10, 10%, 100%);
+    color: dimgrey;
+    font-family: arial;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+#main-doc {
+    display: flex
+}
+
+#navbar {
+    height: 100vh;
+    overflow-y: scroll;
+    width: 125%;
+    text-align: justify;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    font-size: 20px;   
+}
